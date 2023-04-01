@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  background-color: rgb(239, 239, 239);
+  padding: 15px;
+}
+
+header a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  display: flex;
+  margin: 30px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+}
+
+div {
+  margin: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.car-title {
+  color: rgb(137, 137, 137);
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  color: grey;
+}
+
+h3,
+p,
+button {
+  padding-left: 10px;
+}
+
+hr {
+  color: rgb(236, 236, 236);
+  border: 1px solid;
+}

@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+:root {
+  --main-font-color: #716eeb;
+  --secondary-font-color: #8d8d8d;
+}
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper div {
+  border: 1px solid var(--secondary-font-color);
+  box-shadow: var(--secondary-font-color) 0 0 0.5px;
+  border-radius: 5px;
+  margin: 0.5rem;
+  text-align: center;
+  width: 30%;
+}
+
+nav {
+  text-align: center;
+  padding: 1rem;
+}
+
+nav a {
+  color: var(--secondary-font-color);
+  margin: auto 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+img {
+  max-width: 75%;
+  max-height: 9rem;
+}
+
+form {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: var(--secondary-font-color) 0 0 3px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  padding-bottom: 0.5rem;
+}
+
+form label input {
+  padding: 0.4rem;
+  border: 1px solid var(--secondary-font-color);
+  border-radius: 5px;
+  width: 75%;
+}
+
+form button {
+  background-color: white;
+  margin-top: 2rem;
+  border: 1px solid var(--secondary-font-color);
+  border-radius: 5px;
+}
